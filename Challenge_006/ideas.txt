@@ -1,0 +1,22 @@
+Idee:
+
+Profil auf einer Plattform.
+
+Welche Plattform?
+- Lehrer und Dozenten
+- Website für Leute die Wissen weitergeben möchten
+- Etwas orientiert an der GitHub Seite
+
+Aufbau:
+NavBar:
+- Einfach mit ein paar links auf der rechten Seite
+- Links evtl. ein Logo
+
+Profilseite:
+Zwei Spalten
+    - Linke Spalte: Profil Bild, Name, Alter, Interessen, Persönliche Infos, Hobbies, Geburtstag
+    - Rechte Spalte: Verschiedene Kacheln (Etwa 75 % der Seite)
+        - Beschreibungstext über meine Arbeit, Erfahrungen und Interessen. Was suche ich auf dieser Plattform?
+        - Fächer/Wissensbereiche die ich unterrichte und behersche
+        - Fächer/Wissensbereiche über die ich mich gerade Informiere
+        - Fächer/Wissensbereiche über dich ich noch lernen möchten
