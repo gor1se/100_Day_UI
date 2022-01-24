@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -23,8 +24,8 @@ html, body {
     display: block;
     width: 40%;
     height: 10%;
-    margin: .4rem auto;
-    padding: .4rem;
+    margin: 0.4rem auto;
+    padding: 0.4rem;
 }
 
 .image {
@@ -32,20 +33,20 @@ html, body {
     margin: 2rem;
 }
 
-.image img{
+.image img {
     height: 350px;
     width: 500px;
     border: 2px solid #111;
 }
 
 .btn-su {
-    background-color: #0C0;
+    background-color: #0c0;
     border: none;
     border-radius: 1rem;
     color: white;
     width: 5rem;
     height: 2rem;
-    margin: .8rem auto;
+    margin: 0.8rem auto;
     display: block;
 }
 
@@ -53,9 +54,8 @@ html, body {
     background-color: #494;
 }
 
-input[type=checkbox]
-{
-  -webkit-appearance:checkbox;
+input[type="checkbox"] {
+    -webkit-appearance: checkbox;
 }
 
 input:focus {
@@ -74,14 +74,14 @@ input:focus {
 }
 
 .disabled {
-    background-color: #AAA;
+    background-color: #aaa;
 }
 
 .disabled:hover {
     background-color: #888;
 }
 
-@media(max-width:1600px) {
+@media (max-width: 1600px) {
     .content {
         width: 75%;
         text-align: center;
