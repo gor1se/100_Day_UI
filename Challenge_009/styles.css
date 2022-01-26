@@ -165,8 +165,6 @@ button.btn-small {
     padding: 8px;
 }
 
-/* Hintergrund: Dunkelblaues Grau bis rötliches Grau */
-
 .img-bigger {
     animation-name: imgAnimation;
     animation-duration: 0.5s;

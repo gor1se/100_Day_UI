@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" version="1.1" viewBox="0 0 1024 1024" xml:space="preserve" height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:vectornator="http://vectornator.io">
+<metadata>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting value="false" key="WDSnapToPoints"/>
+<vectornator:setting value="true" key="VNSnapToGuides"/>
+<vectornator:setting value="true" key="VNDimensionsVisible"/>
+<vectornator:setting value="false" key="WDIsolateActiveLayer"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting value="Pixels" key="WDUnits"/>
+<vectornator:setting value="false" key="WDOutlineMode"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting value="false" key="IsTimeLapseWatermarkDisabled"/>
+<vectornator:setting value="true" key="WDRulersVisible"/>
+<vectornator:setting value="false" key="WDDisplayWhiteBackground"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+</metadata>
+<defs/>
+<g id="Ebene 1" vectornator:layerName="Ebene 1">
+<path stroke-linecap="round" fill="#000000" stroke-linejoin="round" opacity="1" stroke="#000000" stroke-width="10" d="M119.816+907.155L821.01+904.959L819.242+656.682L718.48+751.553L718.548+805.041L218.024+806.257L216.596+306.763L516.698+308.143L624.606+204.167L119.51+205.703L119.816+907.155Z"/>
+<path stroke-width="10" fill="#000000" opacity="1" stroke-linejoin="round" stroke-linecap="round" d="M773.364+136.58L773.777+540.003L975.652+339.657L773.364+136.58Z" stroke="#000000"/>
+</g>
+<g vectornator:layerName="Ebene 2" id="Ebene 2">
+<path stroke-linecap="round" opacity="1" stroke-width="10" d="M374.903+687.772C350.564+717.502+554.517+282.391+769.281+262.285C984.044+242.179+1053.6+412.587+773.349+415.922C628.322+417.647+512.062+520.235+374.903+687.772Z" stroke="#000000" fill="#000000" stroke-linejoin="round"/>
+</g>
+</svg>

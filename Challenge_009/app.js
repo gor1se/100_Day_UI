@@ -1,7 +1,6 @@
 "use strict";
 
 //Image
-
 const img = document.querySelector(".cover-img");
 
 img.addEventListener("mouseover", () => {
