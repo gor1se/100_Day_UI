@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.con img {
+    width: 38px;
+    height: 38px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.con img:hover {
+    background-color: #ddd;
+}
