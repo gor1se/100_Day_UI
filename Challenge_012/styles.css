@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-blue: #a2d2ff;
+    --primary-white: #fef9ef;
+    --primary-peach: #ff865e;
+    --primary-yellow: #fee440;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    background-color: var(--primary-white);
+}
+
+hr {
+    width: 10%;
+    border-width: 20%;
+    border-top: 5px dotted var(--primary-blue);
+    margin: 3rem auto;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--primary-peach);
+}
+
+.nav-logo {
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    color: #777;
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 1.4rem;
+}
+
+.nav-item:last-child {
+    margin-right: 1rem;
+}
+
+.nav-item:hover {
+    color: #fff;
+}
+
+.header-img {
+    height: 93vh;
+    background-image: url("./img/smoothies.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.products {
+    margin-top: 3rem;
+    width: 100%;
+    background-color: var(--primary-white);
+}
+
+.products h1 {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primary-white);
+}
+
+.products-grid {
+    display: grid;
+    background-color: var(--primary-white);
+    margin: 1rem auto;
+    width: 80%;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    row-gap: 4rem;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.product-img {
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.product-img:hover {
+    filter: blur(2px);
+}
+
+.product-title {
+    text-align: center;
+}
+
+.product-description {
+    text-align: center;
+}
+
+.item-selection {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-item,
+.add-to-cart {
+    background-color: hsl(100, 90%, 70%);
+}
+
+.remove-item {
+    background-color: hsl(0, 90%, 70%);
+}
+
+.add-item:hover,
+.add-to-cart:hover {
+    background-color: hsl(100, 50%, 50%);
+}
+
+.remove-item:hover {
+    background-color: hsl(0, 50%, 50%);
+}
+
+.remove-item.not-possible {
+    background-color: hsl(0, 90%, 85%);
+}
+
+.remove-item.not-possible:hover {
+    background-color: hsl(0, 90%, 85%);
+}
+
+.item-count {
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.item-count:disabled {
+    background: none;
+}
+
+.add-to-cart {
+    width: 100%;
+    display: block;
+    margin: 1rem auto 0 auto;
+}
+
+.black {
+    color: #000;
+}
+
+@media (max-width: 1000px) {
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 620px) {
+    .products-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+
+.info-section {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.info-img {
+    width: 100%;
+    height: 50vh;
+    background-image: url("./img/nutrition.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.info-title {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 5rem;
+    width: 100%;
+    height: 200px;
+    background-color: var(--primary-peach);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-link {
+    margin-left: 1rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    color: #777;
+}
+
+.footer-text {
+    margin: 2rem;
+    color: #777;
+}
