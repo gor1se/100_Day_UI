@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat;
+    background-color: #000;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icon.accent {
+    background-color: hsl(200, 80%, 60%);
+}
+
+.icon.emoji:hover {
+    background: #ccc;
+}
+
+.icon.accent:hover {
+    background-color: hsl(200, 100%, 40%);
+}
+
+.icon:hover {
+    background-color: #eee;
+}
+
+.chat-app {
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-header {
+    margin: 0.4rem 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-content {
+    width: 100%;
+    border-bottom: 1px solid #666;
+    border-top: 1px solid #666;
+}
+
+.user {
+    display: flex;
+}
+
+.user-info h5,
+h6 {
+    margin: 0;
+}
+
+.user-info h5 {
+    font-size: 16px;
+    margin-top: 2rem;
+}
+
+.user-info h6 {
+    color: #666;
+}
+
+.message {
+    border-radius: 1rem;
+    padding: 0.5em;
+    display: inline-block;
+    font-size: 22px;
+    margin: 1rem 0rem;
+    max-width: 75%;
+}
+
+.message-received {
+    background-color: hsl(200, 80%, 60%);
+    border-top-left-radius: 0;
+}
+
+.message-sent {
+    background-color: #aaa;
+    float: right;
+    border-top-right-radius: 0;
+}
+
+.message-date {
+    float: right;
+    margin-top: 1rem;
+    color: #555;
+}
+
+.time-info {
+    text-align: center;
+    margin: 1rem auto;
+    border-top: 1px solid #aaa;
+    padding: 1rem;
+}
+
+.chat-controlls {
+    margin: 0.4rem 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-message {
+    width: 80%;
+    height: 90%;
+    border: 1px solid #666;
+    border-radius: 100000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-input {
+    background: none;
+    font-size: 26px;
+    width: 90%;
+    border: none;
+    margin-left: 1rem;
+}
+
+.message-input:focus {
+    border: none;
+    outline: none;
+}
+
+.icon.send {
+    margin: 1rem 0;
+}
+
+.hide {
+    display: none;
+}
