@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="timer-container">
+            <div class="timer">00:00:00</div>
+            <div class="controlls">
+                <button class="btn btn-pause" disabled>Pause</button>
+                <button class="btn btn-start">Start</button>
+            </div>
+        </div>
+        <div class="timer-buttons">
+            <button class="btn btn-timer" data-timer="00:00:10">10 Sec</button>
+            <button class="btn btn-timer" data-timer="00:00:30">30 Sec</button>
+            <button class="btn btn-timer" data-timer="00:01:00">1 Min</button>
+            <button class="btn btn-timer" data-timer="00:03:00">3 Min</button>
+            <button class="btn btn-timer" data-timer="00:05:00">5 Min</button>
+            <button class="btn btn-timer" data-timer="00:10:00">10 Min</button>
+            <button class="btn btn-timer" data-timer="00:15:00">15 Min</button>
+            <button class="btn btn-timer" data-timer="00:30:00">30 Min</button>
+            <button class="btn btn-timer" data-timer="00:45:00">45 Min</button>
+            <button class="btn btn-timer" data-timer="01:00:00">1 Hour</button>
+            <button class="btn btn-timer" data-timer="03:00:00">2 Hour</button>
+            <button class="btn btn-timer" data-timer="05:00:00">5 Hour</button>
+            <button class="btn btn-timer" data-timer="10:00:00">10 Hour</button>
+            <form class="custom-timer" action="">
+                <input
+                    type="number"
+                    name="inputHours"
+                    min="0"
+                    max="59"
+                    id=""
+                    placeholder="00"
+                />:
+                <input
+                    type="number"
+                    name="inputMinutes"
+                    min="0"
+                    max="59"
+                    id=""
+                    placeholder="00"
+                />:
+                <input
+                    type="number"
+                    name="inputSeconds"
+                    min="0"
+                    max="59"
+                    id=""
+                    placeholder="00"
+                />
+                <h4>custom</h3>
+                    <img src="true.png" class="icon" alt="">
+            </form>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
